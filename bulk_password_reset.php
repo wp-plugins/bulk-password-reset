@@ -4,7 +4,7 @@ Plugin Name: Bulk Password Reset
 Plugin URI: http://rubenwoudsma.nl/bulk-password-reset
 Description: This plugin makes it possible to perform a bulk password reset for users within a specific group. You can send an activation key to all the users or perform a hard reset of the password.
 Author: Ruben Woudsma
-Version: 0.9.0.
+Version: 1.0.0.
 Author URI: http://rubenwoudsma.nl
 */   
    
@@ -56,7 +56,7 @@ if (!class_exists('bulk_password_reset')) {
 						 <script type="text/javascript" charset="utf-8">
 						 	jQuery(document).ready(function(){
 								jQuery('#advancedsettings').change(function(){
-									if ((jQuery('#advancedsettings').attr('checked')) == true)  {
+									if (jQuery('#advancedsettings').is(':checked')) {
 										jQuery('#advancedbprsettings').css("display","block");
 									} else {
 										jQuery('#advancedbprsettings').css("display","none");
@@ -185,7 +185,7 @@ if (!class_exists('bulk_password_reset')) {
 																$name = translate_user_role($value );
 														?>
 															<option value="<?php echo $key; ?>"	<?php
-																echo (in_array($key, $send_roles) ? ' selected="selected"' : '');?>>
+																echo (in_array($key, (array) $send_roles) ? ' selected="selected"' : '');?>>
 																<?php echo __('Role', 'bulk_password_reset') . ' - ' . $name; ?>
 															</option>
 														<?php

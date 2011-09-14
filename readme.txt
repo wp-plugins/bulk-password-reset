@@ -2,7 +2,7 @@
 Contributors: Ruben Woudsma
 Tags: users, reset, password, admin, bulk mode, password reset
 Requires at least: 2.8
-Tested up to: 2.9
+Tested up to: 3.2
 Stable tag: trunk
 
 Bulk Password Reset is a tool which can help you do a bulk password reset 
@@ -27,7 +27,7 @@ Important Links:
 
 == Credits ==
 
-Copyright 2009 by Ruben Woudsma. The plugin is based on the template 
+Copyright 2011 by Ruben Woudsma. The plugin is based on the template 
 plugin template and furthermore several functions have been copied 
 from yoast.com his Google Analytics plugin. I would like to thank 
 both Joost van de Valk (yoast.com) and Pressography.com for a look 
@@ -68,6 +68,11 @@ That's it ... Have fun
 * None yet. More to come.
 
 == Changelog == 
+
+= V1.0 - 14-09-2011 =
+* FIX : Fixed an issue about wrong datatype (credits: tosho and proximity2008)
+* FIX : Advanced setting with jQuery no longer working (credits: eastwoodarts)
+* FIX : Minor update to the Dutch language pack
 
 = V0.9 - 07.12.2009 =
 * FIX : Dutch language support
