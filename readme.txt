@@ -1,9 +1,10 @@
 === Bulk Password Reset ===
 Contributors: Ruben Woudsma
-Tags: users, reset, password, admin, bulk mode, password reset
+Tags: users, reset, password, admin, bulk mode, password reset, bulk
 Requires at least: 2.8
-Tested up to: 3.7.
-Stable tag: trunk
+Tested up to: 3.7
+Stable tag: 1.1
+License: GNU v2 or later
 
 Bulk Password Reset is a tool which can help you do a bulk password reset on all the users or just specific users within a category. It has been build to help administrators to automatically reset password of users in their WordPress installation.
 
