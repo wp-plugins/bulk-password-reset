@@ -10,6 +10,8 @@ Bulk Password Reset is a tool which can help you do a bulk password reset on all
 
 == Description ==
 
+= Intro =
+
 Bulk password reset is an easy plugin that can help you reset all the password of the users or the users in a specific category. Optionally you can add a e-mail note and set the default password.
 
 It is free to use in both commercial and personal projects, just like WordPress is.
@@ -23,10 +25,13 @@ It is free to use in both commercial and personal projects, just like WordPress 
 = Important Links =
 
 Below some important links with can help you for addition research to find answers regarding the plugin:
+
 * [Website of the Author Ruben Woudsma](http://rubenwoudsma.nl/)
 * [Artist designed icon in header](http://www.aha-soft.com/)
 
 = Features =
+
+The following features are included in this plugin:
 
 * Users              : Bulk reset the password of users.
 * E-mail             : An e-mail can be sent to all the users to reset the password.
@@ -55,6 +60,13 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
+== Ruben Woudsma ==
+*	[rubenwoudsma.nl](http://rubenwoudsma.nl/)
+*	[Twitter](http://twitter.com/rubenwoudsma)
+*	[Facebook](http://www.facebook.com/rubenwoudsma)
+*	[LinkedIN](http://www.linkedin.com/in/rubenwoudsma)
+
+
 == Installation ==
 
 1. 	Upload the files to wp-content/plugins/bulk_password_reset
@@ -64,13 +76,17 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 That's it ... Have fun
 
-== Screen shots ==
+
+
+== Screenshots ==
 
 1. Screen shot Admin Area 
 
+
 == Frequently Asked Questions ==
 
-* None yet. More to come.
+1.	Have a question? Make a thread in the support forum and we will get back to you.
+
 
 == Change log == 
 
