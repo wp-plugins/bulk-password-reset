@@ -2,8 +2,8 @@
 Contributors: Ruben Woudsma
 Tags: users, reset, password, admin, bulk mode, password reset, bulk
 Requires at least: 2.8
-Tested up to: 3.7
-Stable tag: 1.1
+Tested up to: 4.0
+Stable tag: 1.2
 License: GNU v2 or later
 
 Bulk Password Reset is a tool which can help you do a bulk password reset on all the users or just specific users within a category.
@@ -40,7 +40,7 @@ The following features are included in this plugin:
 
 == Credits ==
 
-Copyright 2009-2013 by Ruben Woudsma. The plugin is based on the template 
+Copyright 2009-2014 by Ruben Woudsma. The plugin is based on the template 
 plugin template and furthermore several functions have been copied 
 from yoast.com his Google Analytics plugin. I would like to thank 
 both [Joost van de Valk](yoast.com) and Pressography.com for a look 
@@ -77,7 +77,6 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 That's it ... Have fun
 
 
-
 == Screenshots ==
 
 1. Screen shot Admin Area 
@@ -89,6 +88,14 @@ That's it ... Have fun
 
 
 == Change log == 
+
+= V1.2 - 28-08-2014 =
+* FIX: Removed several notices and warning debug messages
+* FIX: Solved an issue regarding invalid key message after clicking link in email
+* FIX: Modified the layout of the email message as returns where displayed as /r/n
+* NEW: Added Spanish translation of the Plugin (probs: Marcelo Pedra )
+* NEW: Added plugin icon to support the new WordPress 4.0 plugin directory
+* TODO: Fix issue regarding opening/closing postboxes
 
 = V1.1 - 24-10-2013 =
 * FIX: Some grammatical errors have been removed from the system
