@@ -2,7 +2,7 @@
 Contributors: Ruben Woudsma
 Tags: users, reset, password, admin, bulk mode, password reset, bulk
 Requires at least: 2.8
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.2
 License: GNU v2 or later
 
