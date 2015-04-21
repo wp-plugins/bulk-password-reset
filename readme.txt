@@ -3,7 +3,7 @@ Contributors: Ruben Woudsma
 Tags: users, reset, password, admin, bulk mode, password reset, bulk
 Requires at least: 2.8
 Tested up to: 4.2
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GNU v2 or later
 
 Bulk Password Reset is a tool which can help you do a bulk password reset on all the users or just specific users within a category.
@@ -88,6 +88,9 @@ That's it ... Have fun
 
 
 == Change log == 
+
+= V1.2.1 - 21-04-2015 =
+* FIX: Minor change within the strings used for sending the request (probs: whitsey)
 
 = V1.2 - 28-08-2014 =
 * FIX: Removed several notices and warning debug messages

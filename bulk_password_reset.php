@@ -4,7 +4,7 @@ Plugin Name: Bulk Password Reset
 Plugin URI: http://rubenwoudsma.nl/bulk-password-reset
 Description: This plugin makes it possible to execute a bulk password reset for users within a specific group. You can send an activation key to all the users or perform a hard reset of the password.
 Author: Ruben Woudsma
-Version: 1.2
+Version: 1.2.1
 Author URI: http://rubenwoudsma.nl
 */  
   
@@ -534,12 +534,12 @@ if (!class_exists('bulk_password_reset')) {
                     }
 
                     $message .= __('Hello,', 'bulk_password_reset') . "\r\n\r\n";
-                    $message .= sprintf(__('The site administrator of %s has automatically requested to changes your password due to violation issues.', 'bulk_password_reset'), get_option('siteurl')) . "\r\n\r\n";
+                    $message .= sprintf(__('The site administrator of %s has automatically requested to change your password.', 'bulk_password_reset'), get_option('siteurl')) . "\r\n\r\n";
                     $message .= sprintf(__('User name: %s', 'bulk_password_reset'), $user_login) . "\r\n\r\n";
                     $message .= __('To reset your password visit the following address and change your password.', 'bulk_password_reset') . "\r\n\r\n";
                     $message .= network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login') . "\r\n";
                     $message .= __('Kind regards,', 'bulk_password_reset') . "\r\n\r\n";
-                    $message .= __('The admin team of the website', 'bulk_password_reset');
+                    $message .= __('The Webmaster of ', 'bulk_password_reset') . get_option('blogname');
 
                     $title = sprintf(__('[%s] Password Reset Request', 'bulk_password_reset'), get_option('blogname'));
 
